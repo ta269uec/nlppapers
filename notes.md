@@ -47,3 +47,16 @@ length is limitted to 140 characters, are casual in the language style and multi
 in fields and themes. Moreover tweets contain a large amount of noises, such as
 hashtags, URLs, and emotions. These characters make Twitter sentiment analysis a
 challenging assignment
+
+# [POLYLOSS: A POLYNOMIAL EXPANSION PERSPECTIVE OF CLASSIFICATION LOSS FUNCTIONS](https://arxiv.org/pdf/2204.12511.pdf)
+
+## Synopsis
+
+Cross-entropy loss and focal loss are the most common choices when training
+deep neural networks for classification problems. Generally speaking, however, a
+good loss function can take on much more flexible forms, and should be tailored
+for different tasks and datasets. Motivated by how functions can be approximated
+via Taylor expansion, we propose a simple framework, named PolyLoss, to view
+and design loss functions as a linear combination of polynomial functions. Our
+PolyLoss allows the importance of different polynomial bases to be easily adjusted depending on the targeting tasks and datasets, while naturally subsuming
+the aforementioned cross-entropy loss and focal loss as special cases
