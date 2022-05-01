@@ -60,3 +60,5 @@ via Taylor expansion, we propose a simple framework, named PolyLoss, to view
 and design loss functions as a linear combination of polynomial functions. Our
 PolyLoss allows the importance of different polynomial bases to be easily adjusted depending on the targeting tasks and datasets, while naturally subsuming
 the aforementioned cross-entropy loss and focal loss as special cases
+
+# [Graph Networks for NLP - Tutorial](https://www.youtube.com/watch?v=QZEetG6YX-Y)
